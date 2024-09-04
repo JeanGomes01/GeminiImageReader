@@ -67,7 +67,7 @@ Para garantir o funcionamento adequado da nossa aplicação, verifique abaixo:
 git clone https://github.com/JeanGomes01/GeminiImageReader.git
 ```
 
-2. **Navegue na raiz do projeto btc-candle-generator:**
+2. **Navegue na raiz do projeto**
 
 3. **Instale os módulos:**
 
