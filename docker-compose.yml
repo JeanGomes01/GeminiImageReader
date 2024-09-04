@@ -1,0 +1,18 @@
+name: image-reader-db
+services:
+  db:
+    image: postgres
+    restart: always
+    shm_size: 128mb
+    ports:
+      - 5435:5432
+    environment:
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_USER: postgres
+      POSTGRES_DB: postgres_db
+    volumes:
+      - image-reader-db:/var/lib/postgres
+volumes:
+  image-reader-db:
+    name: image-reader
+    driver: local
